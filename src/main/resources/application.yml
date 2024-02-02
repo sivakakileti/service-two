@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: SERVICE-TWO
+
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/
+    register-with-eureka: true
